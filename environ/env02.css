@@ -35,7 +35,7 @@ img {
 
 .top-section {
     display: flex;
-    gap: 400px;
+    gap: 70px;
     align-items: flex-start;
     margin: 0 0 25px 0;
 }
@@ -72,8 +72,8 @@ img {
 }
 
 .navigation {
-    background: #fff7e8;
-    padding: 400px;
+    background: #032c52;
+    padding: 45px;
     border-radius: 12px;
 }
 
@@ -90,3 +90,9 @@ img {
     font-weight: bold;
 }
 
+.bottom-section {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}

@@ -21,6 +21,7 @@ body {
 h1 {
     color: #9264b7;
     font-size: 44px;
+    font-family: "Fredoka", sans-serif;
     /* TODO 3: change this header's font to "Fredoka"
        (the font is already loaded in dis03.html; you just need the font-family property) */
 }
@@ -29,7 +30,7 @@ h1 {
 button {
     background: #8ab7e2;
     color: #000000;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: "Fredoka", sans-serif;
     font-size: 22px;
     padding: 12px 20px;
     border: none;
