@@ -1,0 +1,12 @@
+body {
+    background: #fbff03;
+    padding: 100px;
+}
+
+* { box-sizing: border-box; }
+body { margin: 24px; font-family: Arial, sans-serif; color: #333; background: rgb(238, 255, 6); }
+p { line-height: 2.5; }
+button { padding: 102px 106px; border: 1px solid #888; background: #fc0404; font: inherit; cursor: pointer; }
+.controls { display: flex; flex-wrap: wrap; gap: 50px; }
+
+#status { margin-top: 24px; }
