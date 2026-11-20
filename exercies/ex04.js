@@ -24,5 +24,7 @@ $("#butt-button").click( function() {
     $("body").append("<img src='" +colors[count-1] +".jpg'>" );
 
     
+
+    
 });
 
