@@ -23,6 +23,8 @@ h11 {
 }
 
 img {
-    width: 350px;
+
+    float: left;
+    width: 150px;
 }
 

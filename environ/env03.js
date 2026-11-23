@@ -10,20 +10,41 @@ let mainEntity = {
     favoriteElement: environmentElements[1]
 };
 
-$("#butt-button").click( function() {
+let buttonText = "you fractured me.";
+
+
+$("#dust-button").click( function() {
     //what to do when the button is clicked
     
-
-
     buttonimg = "<img src='" + mainEntity.favoriteElement +"creepyeye.png'>";
 
 
-    $("#butt-button").html( buttonimg );
+    $("#dust-button").html( buttonimg );
      
     $("body").css("background-color",);
     
-    $("body").append("<img src=creepyeye.png'" );
+    $("body").css("size", "20px")
 
-    $("body").css("size", "50px")
+});
+
+
+$( "#eye-button" ).click( function() {
+
+    let message = "<p> you fractured me. </p>";
+
+    $("#eye-button").html( message );
+
+    $("body").css("background-color", "black");
+
+    $("body").css("text-color", "blue ");
+
+});
+
+$( "#stormyclouds-button" ).click( function() {
+
+    buttonimg = "<img src='" + mainEntity.favoriteElement +"stormycloudsflower.png'>";
+
+    $("#stormyclouds-button").html( buttonimg );
+    
 
 });
